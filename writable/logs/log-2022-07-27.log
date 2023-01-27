@@ -1,0 +1,89 @@
+CRITICAL - 2022-07-27 00:08:34 --> syntax error, unexpected 'foreach' (T_FOREACH)
+#0 D:\xamp\htdocs\fitness_club\vendor\codeigniter4\framework\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('Members/members...')
+#1 D:\xamp\htdocs\fitness_club\vendor\codeigniter4\framework\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('Members/members...')
+#2 D:\xamp\htdocs\fitness_club\vendor\codeigniter4\framework\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 D:\xamp\htdocs\fitness_club\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xamp\htdocs\fitness_club\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-07-27 00:09:13 --> syntax error, unexpected 'foreach' (T_FOREACH)
+#0 D:\xamp\htdocs\fitness_club\vendor\codeigniter4\framework\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('Members/members...')
+#1 D:\xamp\htdocs\fitness_club\vendor\codeigniter4\framework\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('Members/members...')
+#2 D:\xamp\htdocs\fitness_club\vendor\codeigniter4\framework\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 D:\xamp\htdocs\fitness_club\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xamp\htdocs\fitness_club\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-07-27 00:31:38 --> Undefined index: profile_pic
+#0 D:\xamp\htdocs\fitness_club\app\Views\backend\header.php(156): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\xamp\\htdocs\\...', 156, Array)
+#1 D:\xamp\htdocs\fitness_club\vendor\codeigniter4\framework\system\View\View.php(210): include('D:\\xamp\\htdocs\\...')
+#2 D:\xamp\htdocs\fitness_club\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\xamp\htdocs\fitness_club\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('backend/header', Array, true)
+#4 D:\xamp\htdocs\fitness_club\app\Controllers\Members.php(129): view('backend/header', Array)
+#5 D:\xamp\htdocs\fitness_club\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Members->membership()
+#6 D:\xamp\htdocs\fitness_club\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Members))
+#7 D:\xamp\htdocs\fitness_club\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xamp\htdocs\fitness_club\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-07-27 05:00:44 --> Argument 2 passed to CodeIgniter\Database\BaseBuilder::like() must be of the type string, null given, called in D:\xamp\htdocs\fitness_club\app\Controllers\Members.php on line 91
+#0 D:\xamp\htdocs\fitness_club\app\Controllers\Members.php(91): CodeIgniter\Database\BaseBuilder->like('fullname', NULL)
+#1 D:\xamp\htdocs\fitness_club\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Members->membership()
+#2 D:\xamp\htdocs\fitness_club\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Members))
+#3 D:\xamp\htdocs\fitness_club\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xamp\htdocs\fitness_club\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-07-27 06:22:53 --> Undefined index: profile_pic
+#0 D:\xamp\htdocs\fitness_club\app\Views\backend\header.php(156): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\xamp\\htdocs\\...', 156, Array)
+#1 D:\xamp\htdocs\fitness_club\vendor\codeigniter4\framework\system\View\View.php(210): include('D:\\xamp\\htdocs\\...')
+#2 D:\xamp\htdocs\fitness_club\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\xamp\htdocs\fitness_club\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('backend/header', Array, true)
+#4 D:\xamp\htdocs\fitness_club\app\Controllers\Trainer.php(155): view('backend/header', Array)
+#5 D:\xamp\htdocs\fitness_club\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Trainer->show()
+#6 D:\xamp\htdocs\fitness_club\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Trainer))
+#7 D:\xamp\htdocs\fitness_club\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xamp\htdocs\fitness_club\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-07-27 06:51:32 --> Trying to get property 'id' of non-object
+#0 D:\xamp\htdocs\fitness_club\app\Controllers\Members.php(128): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'D:\\xamp\\htdocs\\...', 128, Array)
+#1 D:\xamp\htdocs\fitness_club\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Members->membership()
+#2 D:\xamp\htdocs\fitness_club\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Members))
+#3 D:\xamp\htdocs\fitness_club\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xamp\htdocs\fitness_club\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-07-27 06:53:29 --> Trying to get property 'id' of non-object
+#0 D:\xamp\htdocs\fitness_club\app\Controllers\Members.php(128): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'D:\\xamp\\htdocs\\...', 128, Array)
+#1 D:\xamp\htdocs\fitness_club\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Members->membership()
+#2 D:\xamp\htdocs\fitness_club\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Members))
+#3 D:\xamp\htdocs\fitness_club\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xamp\htdocs\fitness_club\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-07-27 06:55:14 --> Trying to get property 'fullname' of non-object
+#0 D:\xamp\htdocs\fitness_club\app\Controllers\Members.php(131): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'D:\\xamp\\htdocs\\...', 131, Array)
+#1 D:\xamp\htdocs\fitness_club\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Members->membership()
+#2 D:\xamp\htdocs\fitness_club\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Members))
+#3 D:\xamp\htdocs\fitness_club\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xamp\htdocs\fitness_club\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-07-27 06:57:02 --> Trying to get property 'email' of non-object
+#0 D:\xamp\htdocs\fitness_club\app\Controllers\Members.php(133): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'D:\\xamp\\htdocs\\...', 133, Array)
+#1 D:\xamp\htdocs\fitness_club\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Members->membership()
+#2 D:\xamp\htdocs\fitness_club\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Members))
+#3 D:\xamp\htdocs\fitness_club\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xamp\htdocs\fitness_club\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-07-27 07:59:08 --> Undefined variable: model
+#0 D:\xamp\htdocs\fitness_club\app\Controllers\Members.php(124): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\xamp\\htdocs\\...', 124, Array)
+#1 D:\xamp\htdocs\fitness_club\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Members->membership()
+#2 D:\xamp\htdocs\fitness_club\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Members))
+#3 D:\xamp\htdocs\fitness_club\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xamp\htdocs\fitness_club\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-07-27 07:59:26 --> Undefined index: id
+#0 D:\xamp\htdocs\fitness_club\app\Views\backend\membership.php(29): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\xamp\\htdocs\\...', 29, Array)
+#1 D:\xamp\htdocs\fitness_club\vendor\codeigniter4\framework\system\View\View.php(210): include('D:\\xamp\\htdocs\\...')
+#2 D:\xamp\htdocs\fitness_club\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\xamp\htdocs\fitness_club\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('backend/members...', Array, true)
+#4 D:\xamp\htdocs\fitness_club\app\Controllers\Members.php(134): view('backend/members...', Array)
+#5 D:\xamp\htdocs\fitness_club\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Members->membership()
+#6 D:\xamp\htdocs\fitness_club\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Members))
+#7 D:\xamp\htdocs\fitness_club\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xamp\htdocs\fitness_club\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}

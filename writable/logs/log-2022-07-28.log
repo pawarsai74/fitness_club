@@ -1,0 +1,335 @@
+CRITICAL - 2022-07-28 00:45:14 --> Argument 2 passed to CodeIgniter\Database\BaseBuilder::like() must be of the type string, null given, called in D:\xamp\htdocs\fitness_club\app\Controllers\Members.php on line 90
+#0 D:\xamp\htdocs\fitness_club\app\Controllers\Members.php(90): CodeIgniter\Database\BaseBuilder->like('fullname', NULL)
+#1 D:\xamp\htdocs\fitness_club\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Members->membership()
+#2 D:\xamp\htdocs\fitness_club\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Members))
+#3 D:\xamp\htdocs\fitness_club\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xamp\htdocs\fitness_club\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-07-28 00:46:08 --> Argument 2 passed to CodeIgniter\Database\BaseBuilder::like() must be of the type string, null given, called in D:\xamp\htdocs\fitness_club\app\Controllers\Members.php on line 91
+#0 D:\xamp\htdocs\fitness_club\app\Controllers\Members.php(91): CodeIgniter\Database\BaseBuilder->like('fullname', NULL)
+#1 D:\xamp\htdocs\fitness_club\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Members->membership()
+#2 D:\xamp\htdocs\fitness_club\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Members))
+#3 D:\xamp\htdocs\fitness_club\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xamp\htdocs\fitness_club\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-07-28 00:47:10 --> Array to string conversion
+#0 D:\xamp\htdocs\fitness_club\app\Controllers\Members.php(96): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', 'D:\\xamp\\htdocs\\...', 96, Array)
+#1 D:\xamp\htdocs\fitness_club\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Members->membership()
+#2 D:\xamp\htdocs\fitness_club\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Members))
+#3 D:\xamp\htdocs\fitness_club\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xamp\htdocs\fitness_club\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-07-28 00:50:32 --> Undefined variable: Members_data
+#0 D:\xamp\htdocs\fitness_club\app\Controllers\Members.php(140): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\xamp\\htdocs\\...', 140, Array)
+#1 D:\xamp\htdocs\fitness_club\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Members->membership()
+#2 D:\xamp\htdocs\fitness_club\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Members))
+#3 D:\xamp\htdocs\fitness_club\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xamp\htdocs\fitness_club\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-07-28 01:10:59 --> unlink(D:\xamp\htdocs\fitness_club\writable\debugbar/debugbar_1658988212.json): No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(D:\\xamp\\...', 'D:\\xamp\\htdocs\\...', 74, Array)
+#1 D:\xamp\htdocs\fitness_club\vendor\codeigniter4\framework\system\Debug\Toolbar\Collectors\History.php(74): unlink('D:\\xamp\\htdocs\\...')
+#2 D:\xamp\htdocs\fitness_club\vendor\codeigniter4\framework\system\Debug\Toolbar.php(487): CodeIgniter\Debug\Toolbar\Collectors\History->setFiles(1658988652, 20)
+#3 D:\xamp\htdocs\fitness_club\vendor\codeigniter4\framework\system\Debug\Toolbar.php(464): CodeIgniter\Debug\Toolbar->format(Array, 'html')
+#4 D:\xamp\htdocs\fitness_club\app\Config\Events.php(48): CodeIgniter\Debug\Toolbar->respond()
+#5 D:\xamp\htdocs\fitness_club\vendor\codeigniter4\framework\system\Events\Events.php(149): CodeIgniter\Events\Events::Config\{closure}()
+#6 D:\xamp\htdocs\fitness_club\vendor\codeigniter4\framework\system\CodeIgniter.php(308): CodeIgniter\Events\Events::trigger('pre_system')
+#7 D:\xamp\htdocs\fitness_club\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-07-28 01:20:26 --> Undefined variable: users
+#0 D:\xamp\htdocs\fitness_club\app\Views\backend\membership.php(27): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\xamp\\htdocs\\...', 27, Array)
+#1 D:\xamp\htdocs\fitness_club\vendor\codeigniter4\framework\system\View\View.php(210): include('D:\\xamp\\htdocs\\...')
+#2 D:\xamp\htdocs\fitness_club\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\xamp\htdocs\fitness_club\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('backend/members...', Array, true)
+#4 D:\xamp\htdocs\fitness_club\app\Controllers\Members.php(139): view('backend/members...', Array)
+#5 D:\xamp\htdocs\fitness_club\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Members->membership()
+#6 D:\xamp\htdocs\fitness_club\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Members))
+#7 D:\xamp\htdocs\fitness_club\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xamp\htdocs\fitness_club\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-07-28 01:20:46 --> Undefined variable: all_members
+#0 D:\xamp\htdocs\fitness_club\app\Views\backend\membership.php(27): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\xamp\\htdocs\\...', 27, Array)
+#1 D:\xamp\htdocs\fitness_club\vendor\codeigniter4\framework\system\View\View.php(210): include('D:\\xamp\\htdocs\\...')
+#2 D:\xamp\htdocs\fitness_club\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\xamp\htdocs\fitness_club\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('backend/members...', Array, true)
+#4 D:\xamp\htdocs\fitness_club\app\Controllers\Members.php(139): view('backend/members...', Array)
+#5 D:\xamp\htdocs\fitness_club\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Members->membership()
+#6 D:\xamp\htdocs\fitness_club\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Members))
+#7 D:\xamp\htdocs\fitness_club\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xamp\htdocs\fitness_club\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-07-28 01:22:20 --> Undefined variable: all_members
+#0 D:\xamp\htdocs\fitness_club\app\Views\backend\membership.php(27): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\xamp\\htdocs\\...', 27, Array)
+#1 D:\xamp\htdocs\fitness_club\vendor\codeigniter4\framework\system\View\View.php(210): include('D:\\xamp\\htdocs\\...')
+#2 D:\xamp\htdocs\fitness_club\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\xamp\htdocs\fitness_club\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('backend/members...', Array, true)
+#4 D:\xamp\htdocs\fitness_club\app\Controllers\Members.php(91): view('backend/members...')
+#5 D:\xamp\htdocs\fitness_club\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Members->membership()
+#6 D:\xamp\htdocs\fitness_club\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Members))
+#7 D:\xamp\htdocs\fitness_club\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xamp\htdocs\fitness_club\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-07-28 01:22:38 --> Undefined variable: pager
+#0 D:\xamp\htdocs\fitness_club\app\Views\backend\membership.php(31): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\xamp\\htdocs\\...', 31, Array)
+#1 D:\xamp\htdocs\fitness_club\vendor\codeigniter4\framework\system\View\View.php(210): include('D:\\xamp\\htdocs\\...')
+#2 D:\xamp\htdocs\fitness_club\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\xamp\htdocs\fitness_club\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('backend/members...', Array, true)
+#4 D:\xamp\htdocs\fitness_club\app\Controllers\Members.php(91): view('backend/members...')
+#5 D:\xamp\htdocs\fitness_club\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Members->membership()
+#6 D:\xamp\htdocs\fitness_club\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Members))
+#7 D:\xamp\htdocs\fitness_club\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xamp\htdocs\fitness_club\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-07-28 01:50:19 --> Object of class CodeIgniter\Pager\Pager could not be converted to string
+#0 D:\xamp\htdocs\fitness_club\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Members->membership()
+#1 D:\xamp\htdocs\fitness_club\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Members))
+#2 D:\xamp\htdocs\fitness_club\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\xamp\htdocs\fitness_club\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-07-28 01:50:24 --> Object of class CodeIgniter\Pager\Pager could not be converted to string
+#0 D:\xamp\htdocs\fitness_club\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Members->membership()
+#1 D:\xamp\htdocs\fitness_club\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Members))
+#2 D:\xamp\htdocs\fitness_club\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\xamp\htdocs\fitness_club\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-07-28 01:50:35 --> Object of class CodeIgniter\Pager\Pager could not be converted to string
+#0 D:\xamp\htdocs\fitness_club\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Members->membership()
+#1 D:\xamp\htdocs\fitness_club\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Members))
+#2 D:\xamp\htdocs\fitness_club\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\xamp\htdocs\fitness_club\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-07-28 01:53:34 --> syntax error, unexpected '$pager' (T_VARIABLE)
+#0 D:\xamp\htdocs\fitness_club\vendor\codeigniter4\framework\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('Members/members...')
+#1 D:\xamp\htdocs\fitness_club\vendor\codeigniter4\framework\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('Members/members...')
+#2 D:\xamp\htdocs\fitness_club\vendor\codeigniter4\framework\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 D:\xamp\htdocs\fitness_club\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xamp\htdocs\fitness_club\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-07-28 01:54:16 --> Object of class CodeIgniter\Pager\Pager could not be converted to string
+#0 D:\xamp\htdocs\fitness_club\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Members->membership()
+#1 D:\xamp\htdocs\fitness_club\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Members))
+#2 D:\xamp\htdocs\fitness_club\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\xamp\htdocs\fitness_club\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-07-28 01:54:22 --> Object of class CodeIgniter\Pager\Pager could not be converted to string
+#0 D:\xamp\htdocs\fitness_club\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Members->membership()
+#1 D:\xamp\htdocs\fitness_club\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Members))
+#2 D:\xamp\htdocs\fitness_club\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\xamp\htdocs\fitness_club\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-07-28 01:58:52 --> Object of class CodeIgniter\Pager\Pager could not be converted to string
+#0 D:\xamp\htdocs\fitness_club\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Members->membership()
+#1 D:\xamp\htdocs\fitness_club\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Members))
+#2 D:\xamp\htdocs\fitness_club\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\xamp\htdocs\fitness_club\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-07-28 03:08:22 --> Array to string conversion
+#0 D:\xamp\htdocs\fitness_club\app\Controllers\Members.php(90): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', 'D:\\xamp\\htdocs\\...', 90, Array)
+#1 D:\xamp\htdocs\fitness_club\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Members->membership()
+#2 D:\xamp\htdocs\fitness_club\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Members))
+#3 D:\xamp\htdocs\fitness_club\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xamp\htdocs\fitness_club\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-07-28 03:10:55 --> Undefined index: profile_pic
+#0 D:\xamp\htdocs\fitness_club\app\Views\backend\header.php(156): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\xamp\\htdocs\\...', 156, Array)
+#1 D:\xamp\htdocs\fitness_club\vendor\codeigniter4\framework\system\View\View.php(210): include('D:\\xamp\\htdocs\\...')
+#2 D:\xamp\htdocs\fitness_club\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\xamp\htdocs\fitness_club\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('backend/header', Array, true)
+#4 D:\xamp\htdocs\fitness_club\app\Controllers\Members.php(130): view('backend/header', Array)
+#5 D:\xamp\htdocs\fitness_club\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Members->membership()
+#6 D:\xamp\htdocs\fitness_club\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Members))
+#7 D:\xamp\htdocs\fitness_club\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xamp\htdocs\fitness_club\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-07-28 03:23:33 --> Undefined variable: trainer_data
+#0 D:\xamp\htdocs\fitness_club\app\Controllers\Trainer.php(161): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\xamp\\htdocs\\...', 161, Array)
+#1 D:\xamp\htdocs\fitness_club\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Trainer->show()
+#2 D:\xamp\htdocs\fitness_club\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Trainer))
+#3 D:\xamp\htdocs\fitness_club\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xamp\htdocs\fitness_club\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-07-28 03:24:33 --> Undefined variable: trainer
+#0 D:\xamp\htdocs\fitness_club\app\Views\backend\all_trainers.php(23): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\xamp\\htdocs\\...', 23, Array)
+#1 D:\xamp\htdocs\fitness_club\vendor\codeigniter4\framework\system\View\View.php(210): include('D:\\xamp\\htdocs\\...')
+#2 D:\xamp\htdocs\fitness_club\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\xamp\htdocs\fitness_club\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('backend/all_tra...', Array, true)
+#4 D:\xamp\htdocs\fitness_club\app\Controllers\Trainer.php(161): view('backend/all_tra...', Array)
+#5 D:\xamp\htdocs\fitness_club\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Trainer->show()
+#6 D:\xamp\htdocs\fitness_club\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Trainer))
+#7 D:\xamp\htdocs\fitness_club\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xamp\htdocs\fitness_club\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-07-28 03:30:20 --> Call to undefined method CodeIgniter\Pager\PagerRenderer::links_2()
+#0 D:\xamp\htdocs\fitness_club\vendor\codeigniter4\framework\system\View\View.php(210): include()
+#1 D:\xamp\htdocs\fitness_club\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 D:\xamp\htdocs\fitness_club\vendor\codeigniter4\framework\system\Pager\Pager.php(131): CodeIgniter\View\View->render('CodeIgniter\\Pag...')
+#3 D:\xamp\htdocs\fitness_club\vendor\codeigniter4\framework\system\Pager\Pager.php(89): CodeIgniter\Pager\Pager->displayLinks('default', 'default_full')
+#4 D:\xamp\htdocs\fitness_club\app\Views\backend\all_trainers.php(39): CodeIgniter\Pager\Pager->links_2()
+#5 D:\xamp\htdocs\fitness_club\vendor\codeigniter4\framework\system\View\View.php(210): include('D:\\xamp\\htdocs\\...')
+#6 D:\xamp\htdocs\fitness_club\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#7 D:\xamp\htdocs\fitness_club\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('backend/all_tra...', Array, true)
+#8 D:\xamp\htdocs\fitness_club\app\Controllers\Trainer.php(161): view('backend/all_tra...', Array)
+#9 D:\xamp\htdocs\fitness_club\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Trainer->show()
+#10 D:\xamp\htdocs\fitness_club\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Trainer))
+#11 D:\xamp\htdocs\fitness_club\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 D:\xamp\htdocs\fitness_club\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2022-07-28 05:17:01 --> Call to undefined method CodeIgniter\Pager\Pager::links_3()
+#0 D:\xamp\htdocs\fitness_club\vendor\codeigniter4\framework\system\View\View.php(210): include()
+#1 D:\xamp\htdocs\fitness_club\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 D:\xamp\htdocs\fitness_club\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('backend/view_am...', Array, true)
+#3 D:\xamp\htdocs\fitness_club\app\Controllers\Amenities.php(116): view('backend/view_am...', Array)
+#4 D:\xamp\htdocs\fitness_club\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Amenities->display_amenities()
+#5 D:\xamp\htdocs\fitness_club\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Amenities))
+#6 D:\xamp\htdocs\fitness_club\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\xamp\htdocs\fitness_club\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-07-28 05:18:36 --> Call to undefined method CodeIgniter\Pager\Pager::links_3()
+#0 D:\xamp\htdocs\fitness_club\vendor\codeigniter4\framework\system\View\View.php(210): include()
+#1 D:\xamp\htdocs\fitness_club\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 D:\xamp\htdocs\fitness_club\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('backend/view_am...', Array, true)
+#3 D:\xamp\htdocs\fitness_club\app\Controllers\Amenities.php(116): view('backend/view_am...', Array)
+#4 D:\xamp\htdocs\fitness_club\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Amenities->display_amenities()
+#5 D:\xamp\htdocs\fitness_club\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Amenities))
+#6 D:\xamp\htdocs\fitness_club\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\xamp\htdocs\fitness_club\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-07-28 05:19:07 --> Call to undefined method CodeIgniter\Pager\Pager::links_3()
+#0 D:\xamp\htdocs\fitness_club\vendor\codeigniter4\framework\system\View\View.php(210): include()
+#1 D:\xamp\htdocs\fitness_club\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 D:\xamp\htdocs\fitness_club\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('backend/view_am...', Array, true)
+#3 D:\xamp\htdocs\fitness_club\app\Controllers\Amenities.php(116): view('backend/view_am...', Array)
+#4 D:\xamp\htdocs\fitness_club\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Amenities->display_amenities()
+#5 D:\xamp\htdocs\fitness_club\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Amenities))
+#6 D:\xamp\htdocs\fitness_club\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\xamp\htdocs\fitness_club\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-07-28 06:18:57 --> Undefined variable: contact
+#0 D:\xamp\htdocs\fitness_club\app\Views\backend\header.php(96): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\xamp\\htdocs\\...', 96, Array)
+#1 D:\xamp\htdocs\fitness_club\vendor\codeigniter4\framework\system\View\View.php(210): include('D:\\xamp\\htdocs\\...')
+#2 D:\xamp\htdocs\fitness_club\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\xamp\htdocs\fitness_club\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('backend/header', Array, true)
+#4 D:\xamp\htdocs\fitness_club\app\Controllers\Contact.php(19): view('backend/header', Array)
+#5 D:\xamp\htdocs\fitness_club\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Contact->enquiries()
+#6 D:\xamp\htdocs\fitness_club\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Contact))
+#7 D:\xamp\htdocs\fitness_club\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xamp\htdocs\fitness_club\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-07-28 06:22:26 --> Undefined variable: contact
+#0 D:\xamp\htdocs\fitness_club\app\Controllers\Contact.php(11): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\xamp\\htdocs\\...', 11, Array)
+#1 D:\xamp\htdocs\fitness_club\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Contact->enquiries()
+#2 D:\xamp\htdocs\fitness_club\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Contact))
+#3 D:\xamp\htdocs\fitness_club\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xamp\htdocs\fitness_club\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-07-28 06:22:39 --> syntax error, unexpected '$data' (T_VARIABLE)
+#0 D:\xamp\htdocs\fitness_club\vendor\codeigniter4\framework\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('Contact/enquiri...')
+#1 D:\xamp\htdocs\fitness_club\vendor\codeigniter4\framework\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('Contact/enquiri...')
+#2 D:\xamp\htdocs\fitness_club\vendor\codeigniter4\framework\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 D:\xamp\htdocs\fitness_club\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xamp\htdocs\fitness_club\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-07-28 06:22:48 --> Undefined variable: contact
+#0 D:\xamp\htdocs\fitness_club\app\Controllers\Contact.php(11): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\xamp\\htdocs\\...', 11, Array)
+#1 D:\xamp\htdocs\fitness_club\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Contact->enquiries()
+#2 D:\xamp\htdocs\fitness_club\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Contact))
+#3 D:\xamp\htdocs\fitness_club\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xamp\htdocs\fitness_club\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-07-28 06:23:27 --> Undefined variable: pager
+#0 D:\xamp\htdocs\fitness_club\app\Views\backend\view_enquiries.php(36): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\xamp\\htdocs\\...', 36, Array)
+#1 D:\xamp\htdocs\fitness_club\vendor\codeigniter4\framework\system\View\View.php(210): include('D:\\xamp\\htdocs\\...')
+#2 D:\xamp\htdocs\fitness_club\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\xamp\htdocs\fitness_club\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('backend/view_en...', Array, true)
+#4 D:\xamp\htdocs\fitness_club\app\Controllers\Contact.php(22): view('backend/view_en...', Array)
+#5 D:\xamp\htdocs\fitness_club\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Contact->enquiries()
+#6 D:\xamp\htdocs\fitness_club\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Contact))
+#7 D:\xamp\htdocs\fitness_club\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xamp\htdocs\fitness_club\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-07-28 06:28:39 --> Undefined variable: contact
+#0 D:\xamp\htdocs\fitness_club\app\Controllers\Contact.php(11): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\xamp\\htdocs\\...', 11, Array)
+#1 D:\xamp\htdocs\fitness_club\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Contact->enquiries()
+#2 D:\xamp\htdocs\fitness_club\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Contact))
+#3 D:\xamp\htdocs\fitness_club\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xamp\htdocs\fitness_club\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-07-28 07:10:44 --> Call to undefined method CodeIgniter\Pager\Pager::links_5()
+#0 D:\xamp\htdocs\fitness_club\vendor\codeigniter4\framework\system\View\View.php(210): include()
+#1 D:\xamp\htdocs\fitness_club\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 D:\xamp\htdocs\fitness_club\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('backend/members...', Array, true)
+#3 D:\xamp\htdocs\fitness_club\app\Controllers\Members.php(97): view('backend/members...', Array)
+#4 D:\xamp\htdocs\fitness_club\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Members->membership()
+#5 D:\xamp\htdocs\fitness_club\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Members))
+#6 D:\xamp\htdocs\fitness_club\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\xamp\htdocs\fitness_club\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-07-28 07:17:26 --> syntax error, unexpected '}', expecting ';'
+#0 D:\xamp\htdocs\fitness_club\vendor\codeigniter4\framework\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('Members/members...')
+#1 D:\xamp\htdocs\fitness_club\vendor\codeigniter4\framework\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('Members/members...')
+#2 D:\xamp\htdocs\fitness_club\vendor\codeigniter4\framework\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 D:\xamp\htdocs\fitness_club\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xamp\htdocs\fitness_club\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-07-28 07:17:46 --> Undefined variable: login
+#0 D:\xamp\htdocs\fitness_club\app\Controllers\Members.php(85): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\xamp\\htdocs\\...', 85, Array)
+#1 D:\xamp\htdocs\fitness_club\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Members->membership()
+#2 D:\xamp\htdocs\fitness_club\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Members))
+#3 D:\xamp\htdocs\fitness_club\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xamp\htdocs\fitness_club\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-07-28 07:17:59 --> Undefined variable: members
+#0 D:\xamp\htdocs\fitness_club\app\Views\backend\membership.php(27): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\xamp\\htdocs\\...', 27, Array)
+#1 D:\xamp\htdocs\fitness_club\vendor\codeigniter4\framework\system\View\View.php(210): include('D:\\xamp\\htdocs\\...')
+#2 D:\xamp\htdocs\fitness_club\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\xamp\htdocs\fitness_club\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('backend/members...', Array, true)
+#4 D:\xamp\htdocs\fitness_club\app\Controllers\Members.php(93): view('backend/members...', Array)
+#5 D:\xamp\htdocs\fitness_club\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Members->membership()
+#6 D:\xamp\htdocs\fitness_club\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Members))
+#7 D:\xamp\htdocs\fitness_club\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xamp\htdocs\fitness_club\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-07-28 07:18:31 --> Undefined variable: pager
+#0 D:\xamp\htdocs\fitness_club\app\Views\backend\membership.php(42): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\xamp\\htdocs\\...', 42, Array)
+#1 D:\xamp\htdocs\fitness_club\vendor\codeigniter4\framework\system\View\View.php(210): include('D:\\xamp\\htdocs\\...')
+#2 D:\xamp\htdocs\fitness_club\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\xamp\htdocs\fitness_club\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('backend/members...', Array, true)
+#4 D:\xamp\htdocs\fitness_club\app\Controllers\Members.php(93): view('backend/members...', Array)
+#5 D:\xamp\htdocs\fitness_club\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Members->membership()
+#6 D:\xamp\htdocs\fitness_club\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Members))
+#7 D:\xamp\htdocs\fitness_club\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xamp\htdocs\fitness_club\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-07-28 07:19:16 --> Undefined variable: pager
+#0 D:\xamp\htdocs\fitness_club\app\Views\backend\membership.php(42): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\xamp\\htdocs\\...', 42, Array)
+#1 D:\xamp\htdocs\fitness_club\vendor\codeigniter4\framework\system\View\View.php(210): include('D:\\xamp\\htdocs\\...')
+#2 D:\xamp\htdocs\fitness_club\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\xamp\htdocs\fitness_club\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('backend/members...', Array, true)
+#4 D:\xamp\htdocs\fitness_club\app\Controllers\Members.php(93): view('backend/members...', Array)
+#5 D:\xamp\htdocs\fitness_club\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Members->membership()
+#6 D:\xamp\htdocs\fitness_club\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Members))
+#7 D:\xamp\htdocs\fitness_club\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xamp\htdocs\fitness_club\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-07-28 07:34:50 --> Undefined variable: blog
+#0 D:\xamp\htdocs\fitness_club\app\Views\backend\view_blogs.php(20): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\xamp\\htdocs\\...', 20, Array)
+#1 D:\xamp\htdocs\fitness_club\vendor\codeigniter4\framework\system\View\View.php(210): include('D:\\xamp\\htdocs\\...')
+#2 D:\xamp\htdocs\fitness_club\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\xamp\htdocs\fitness_club\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('backend/view_bl...', Array, true)
+#4 D:\xamp\htdocs\fitness_club\app\Controllers\Blogs.php(95): view('backend/view_bl...', Array)
+#5 D:\xamp\htdocs\fitness_club\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Blogs->view_blog()
+#6 D:\xamp\htdocs\fitness_club\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Blogs))
+#7 D:\xamp\htdocs\fitness_club\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xamp\htdocs\fitness_club\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-07-28 07:34:57 --> Undefined variable: blog
+#0 D:\xamp\htdocs\fitness_club\app\Views\backend\view_blogs.php(20): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\xamp\\htdocs\\...', 20, Array)
+#1 D:\xamp\htdocs\fitness_club\vendor\codeigniter4\framework\system\View\View.php(210): include('D:\\xamp\\htdocs\\...')
+#2 D:\xamp\htdocs\fitness_club\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\xamp\htdocs\fitness_club\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('backend/view_bl...', Array, true)
+#4 D:\xamp\htdocs\fitness_club\app\Controllers\Blogs.php(95): view('backend/view_bl...', Array)
+#5 D:\xamp\htdocs\fitness_club\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Blogs->view_blog()
+#6 D:\xamp\htdocs\fitness_club\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Blogs))
+#7 D:\xamp\htdocs\fitness_club\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xamp\htdocs\fitness_club\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
