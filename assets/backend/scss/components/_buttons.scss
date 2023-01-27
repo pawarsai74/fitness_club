@@ -1,0 +1,168 @@
+/* Buttons */
+
+.btn {
+  font-size: $btn-font-size;
+  line-height: 1;
+  font-weight: normal;
+  i {
+    margin-right: .3125rem;
+  }
+  &.btn-rounded {
+    @include border-radius(50px);
+  }
+  &.btn-fw {
+    min-width: $button-fixed-width;
+  }
+  &.btn-sm {
+    font-size: $btn-font-size-sm;
+  }
+  &.btn-lg {
+    font-size: $btn-font-size-lg;
+  }
+  &.btn-xs {
+    padding: $btn-padding-y-xs $btn-padding-x-xs;
+    font-size: $btn-font-size-xs;
+  }
+  /* Buttons with only icons */
+  &.btn-icon {
+    width: 42px;
+    height: 42px;
+    padding: 0;
+  }
+  /* Buttons with icon and text */
+  &.btn-icon-text {
+    .btn-icon-prepend {
+      margin-right: .5rem;
+    }
+    .btn-icon-append {
+      margin-left: .5rem;
+    }
+  }
+  &.btn-social-icon {
+    width: 50px;
+    height: 50px;
+    padding: 0;
+  }
+  &.get-started-btn {
+    font-size: 0.75rem;
+    border: 1px solid rgba(#ffffff, 0.3);
+    font-weight: $font-weight-medium;
+    padding: 0.9375rem 1.0625rem;
+    @media (max-width: 576px) {
+      font-size: 0.6rem;
+      padding: 0.4375rem 0.6625rem;
+    }
+  }
+}
+.swal2-modal .swal2-title {
+  color: #f10707c9!important;
+  font-weight: bold!important;
+}
+.swal2-icon.swal2-success [class^=swal2-success-line] {
+  color: #5ffb08!important;
+}
+.swal2-icon.swal2-success .swal2-success-ring {
+  border: 0.25em solid rgb(135 215 90)!important;
+}
+.swal2-icon.swal2-warning {
+  border-color: #e97919!important;
+  color: #f37c14!important;
+}
+.swal2-icon.swal2-error {
+  border-color: #f30303b0!important;
+  color: #ed0101;
+}
+.swal2-icon.swal2-error [class^=swal2-x-mark-line]{
+  background-color: #f30303b0!important;
+}
+
+.swal2-confirm {
+  color: #fff!important;
+  background-color: #28a745!important;
+  border: 2px solid #28a745!important;
+  padding: 10px 20px!important;
+  margin-left: 10px!important;
+  font-size: 1rem!important;
+}
+.swal2-styled.swal2-confirm:focus {
+  box-shadow: none!important;
+}
+
+.swal2-confirm:hover {
+  color: #1e7e34!important;
+  background: transparent!important;
+  border-color: #1e7e34!important;
+}
+
+.swal2-confirm:focus, .btn-success.focus {
+  box-shadow: 0 0 0 3px rgba(40, 167, 69, 0.5);
+}
+
+.swal2-confirm.disabled, .btn-success:disabled {
+  background-color: #28a745;
+  border-color: #28a745;
+}
+
+.swal2-confirm:active, .btn-success.active,
+.show > .btn-success.dropdown-toggle {
+  background-color: #218838;
+  background-image: none;
+  border-color: #1e7e34;
+}
+
+.swal2-cancel  {
+  margin-right: 10px!important;
+  font-size: 1rem!important;
+  padding: 10px 20px!important;
+}
+.swal2-cancel:hover {
+  color: #fd0800!important;
+  background: transparent!important;
+  border-color: #fd0800!important;
+}
+
+.btn-group {
+  .btn {
+    + .btn {
+      border-left: 0;
+    }
+  }
+}
+
+.btn-toolbar {
+  .btn-group {
+    +.btn-group {
+      @extend .ms-2;
+    }
+  }
+}
+/*social buttons*/
+@each $color, $value in $social-colors {
+  .btn-#{$color} {
+    @include social-button(social-color($color));
+  }
+  .btn-outline-#{$color} {
+    @include social-outline-button(social-color($color));
+  }
+}
+/* inverse buttons */
+@each $color, $value in $theme-colors {
+  .btn-inverse-#{$color} {
+    @include button-inverse-variant($value);
+  }
+  .btn-#{$color} {
+    &:not(.btn-light):not(.btn-secondary) {
+      color: $white;
+      &:hover,
+      &:focus,
+      &:active {
+        color: $white;
+      }
+      &:focus,
+      &:active {
+        background: $value;
+        border-color: $value;
+      }
+    }
+  }
+}
