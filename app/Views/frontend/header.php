@@ -23,7 +23,7 @@
 <body class="bg-white">
   <div id="loader"></div>
     <!-- Navbar Started here -->
-
+    <!--Check if update or not in git branch-->
     <div class="container-fluid p-0 nav-bar">
         <nav class="navbar navbar-expand-lg bg-none navbar-dark py-3">
             <a href="<?= base_url('home/index'); ?>" class="navbar-brand">
