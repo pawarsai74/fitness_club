@@ -14,6 +14,8 @@ class Home extends BaseController {
     public function __construct() {
         helper('form', 'url');
     }
+    //checking git diff
+    //checking git branch 1
     public function index() {
         $trainers = new TrainerModel();
         $details['trainers'] = $trainers->findAll();
